@@ -18,3 +18,9 @@
   /output/entry.txt.
 - TODO: run main.ts 2x from different cwds, verify byte-identical output,
   git config local, commit + push, report to parent.
+- DONE 25 Nov 22:24 WIB: main.ts run 2x from different cwds, output
+  byte-identical sha256 02be483c2d940d3267aa89f82798727c5e8831cb230914855b21c9751d896123,
+  65 bytes. Committed d947644bfafebeb7633635985f0a2f1b76509f4e, pushed to
+  https://github.com/cengkeh1608-oss/groan-off, HEAD == origin verified.
+  1 execution-risk flag total (init output, logged above). Ready for parent
+  bundle/check/submit.
